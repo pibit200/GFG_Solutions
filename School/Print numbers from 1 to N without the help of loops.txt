@@ -1,0 +1,16 @@
+class Solution{
+    public:
+    //Complete this function
+    void printNos(int N)
+    {
+      int iCnt =1;
+      begin: 
+      cout<<iCnt<<" ";
+      iCnt++;
+      if(iCnt<=N){
+          goto begin;
+      }
+     
+       
+    }
+};
